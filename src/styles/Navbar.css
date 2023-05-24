@@ -1,0 +1,129 @@
+/* .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #ffe4c4;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    float: right;
+    align-content: center;
+
+}
+
+.navbar ul li {
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.navbar ul li a:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+ */
+
+
+ .navbar {
+  width: 100%;
+  height: 100px;
+  background: #f1e3dd;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+}
