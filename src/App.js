@@ -6,6 +6,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import ProjectDisplay from './pages/ProjectDisplay';
+// import RedirectPage from './helpers/RedirectPage';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+          {/* <Route path='/external-link' element={<RedirectPage />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
