@@ -8,7 +8,7 @@ const Success = () => {
         heading="Contact"
         text="Let's have a chat"
       />
-      <h1>Thanks for you message!</h1>
+      <h1 style={{textAlign:"center", paddingTop:100}}>Thanks for your message!</h1>
     </div>
   );
 };

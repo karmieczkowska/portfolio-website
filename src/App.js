@@ -5,10 +5,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Success from './components/Success';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import "./index.css"
+import Success from './components/Success';
 
 
 const App = () => {
