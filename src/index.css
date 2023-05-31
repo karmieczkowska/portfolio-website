@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+	--mainColor: #8d9db6;
+	--mainColorLight: #bccad6;
+	--secondaryColor: #f1e3dd;
+	--textColor: #333;
+  --textColorLight: #eee;
+}
+
+body {
+  background-color: var(--textColor);
+}
+
+h1, h2, h3, h4, p {
+  color: var(--textColorLight);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: var(--mainColorLight);
+  color: var(--textColor);
+  border: 1px solid var(--textColorLight);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: var(--textColorLight);
+}
+
+.btn:hover {
+  background: rgba(73, 94, 87, 0.5);
+  color:rgb(237, 239, 238);
+  transition: 0.3s;
+}

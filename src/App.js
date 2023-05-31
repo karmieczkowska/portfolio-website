@@ -5,9 +5,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Success from './components/Success';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
-// import RedirectPage from './helpers/RedirectPage';
+import "./index.css"
+
 
 const App = () => {
   return (
@@ -19,8 +21,8 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
-          {/* <Route path='/external-link' element={<RedirectPage />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="/success" element={<Success />} />
         </Routes>
         <Footer />
       </div>

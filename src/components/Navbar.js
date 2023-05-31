@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/Navbar.css";
@@ -14,14 +14,25 @@ function Navbar() {
 		);
 	};
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+	if(window.scrollY >= 100) {
+		setColor(true);
+	} else {
+		setColor(false);
+	}
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   useEffect(() => {
     showNavbar(false);
   }, [location]);
 
 
 	return (
-		<header>
-			<h3>Portfolio.</h3>
+		<header className={color ? "header-bg" : "header"}>
+			<h3 className="logo"> <Link to="/"> Portfolio. </Link></h3>
 			<nav ref={navRef} className="links">
         <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
