@@ -14,6 +14,9 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
+      <div className="video-size">
+        <video src={project.video} autoPlay loop muted controls />
+      </div>
       <NavLink to={project.link}><GitHubIcon /></NavLink>
     </div>
   );

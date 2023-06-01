@@ -6,12 +6,6 @@
     align-items: center;
     flex-direction: column;
   }
-  .projects .projectTitle {
-    text-align: center;
-    color: #3e497a;
-    font-size: 60px;
-    font-weight: bolder;
-  }
 
   .projectList {
     width: 70vw;
@@ -28,13 +22,16 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    background-color: var(--mainColorLight);
+    opacity: 0.8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     text-align: center;
   }
   .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
+    transition: 0.1s ease-in;
     cursor: pointer;
+    opacity: 1;
   }
 
   .projectItem .bgImage {
@@ -49,6 +46,8 @@
 
   .projectItem h1 {
     font-size: 25px;
+    padding-top: 25px;
+    color: var(--textColor);
   }
 
   @media only screen and (max-width: 1300px) {
@@ -61,14 +60,14 @@
     .projectList {
       grid-template-columns: 1fr;
     }
-  }
 
-  @media only screen and (max-width: 800px) {
     .projectList {
       width: 100%;
     }
+
     .projectItem {
       width: 300px;
       height: 300px;
     }
+
   }
