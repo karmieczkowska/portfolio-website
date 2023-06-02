@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c53d7260.css",
-    "main.js": "/static/js/main.3b3b4166.js",
-    "static/media/backgroung-img.jpg": "/static/media/backgroung-img.aa156d371686eac9b1fa.jpg",
-    "static/media/clock-img.png": "/static/media/clock-img.8eb18a900425e4a5b2ba.png",
-    "static/media/calc-img.png": "/static/media/calc-img.f5a78495f327a572e192.png",
-    "index.html": "/index.html",
-    "main.c53d7260.css.map": "/static/css/main.c53d7260.css.map",
-    "main.3b3b4166.js.map": "/static/js/main.3b3b4166.js.map"
+    "main.css": "/portfolio-website/static/css/main.fbd3ba7b.css",
+    "main.js": "/portfolio-website/static/js/main.e2df8c5e.js",
+    "static/media/todo-list-video.mp4": "/portfolio-website/static/media/todo-list-video.06ac9a46b760a7367bf4.mp4",
+    "static/media/calculator-video.mp4": "/portfolio-website/static/media/calculator-video.5b9aa92c60e480d901c3.mp4",
+    "static/media/clock-video.mp4": "/portfolio-website/static/media/clock-video.38879f61e22c0c7b871f.mp4",
+    "static/media/backgroung-img.jpg": "/portfolio-website/static/media/backgroung-img.aa156d371686eac9b1fa.jpg",
+    "static/media/lla-img.png": "/portfolio-website/static/media/lla-img.32540927a8e602314a88.png",
+    "static/media/clock-img.png": "/portfolio-website/static/media/clock-img.8eb18a900425e4a5b2ba.png",
+    "static/media/calc-img.png": "/portfolio-website/static/media/calc-img.715fa86a468feda2bd1e.png",
+    "static/media/todo-list.png": "/portfolio-website/static/media/todo-list.2e51be0c3eb676234938.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.fbd3ba7b.css.map": "/portfolio-website/static/css/main.fbd3ba7b.css.map",
+    "main.e2df8c5e.js.map": "/portfolio-website/static/js/main.e2df8c5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c53d7260.css",
-    "static/js/main.3b3b4166.js"
+    "static/css/main.fbd3ba7b.css",
+    "static/js/main.e2df8c5e.js"
   ]
 }
