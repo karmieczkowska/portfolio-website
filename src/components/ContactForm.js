@@ -13,7 +13,7 @@ function ContactForm() {
         {/* Disable Captcha */}
         <input type="hidden" name="_captcha" value={false} />
 
-        <input type="hidden" name="_next" value={"http://localhost:3001/success"} />
+        <input type="hidden" name="_next" value={"https://karmieczkowska.github.io/success"} />
 
 
         <label htmlFor="firstName">Your Name</label>
