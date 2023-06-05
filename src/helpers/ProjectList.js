@@ -12,7 +12,7 @@ export const ProjectList = [
     {
         name: "Little Lemon App",
         image: Proj1,
-        skills: "JavaScript, HTML, CSS",
+        skills: "React, JavaScript, HTML, CSS",
         link: "https://github.com/karmieczkowska/little-lemon-app"
     },
     {
@@ -30,9 +30,9 @@ export const ProjectList = [
         video: Vid3
     },
     {
-        name: "Todo list",
+        name: "To do list",
         image: Proj4,
-        skills: "JavaScript, HTML, CSS, React JS",
+        skills: "JavaScript, HTML, CSS, React",
         link: "https://github.com/karmieczkowska/todo-list",
         video: Vid4
     },

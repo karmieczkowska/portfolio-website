@@ -8,7 +8,7 @@ function Projects () {
   return (
     <div className="projects">
       <HeroSection2
-        heading="PROJECTS."
+        heading="PROJECTS"
         text="Some of my most recent works"
       />
       <div className="projectList">

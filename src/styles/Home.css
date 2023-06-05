@@ -1,4 +1,4 @@
-/* body {
+body {
     margin: 0;
   }
 
@@ -37,34 +37,4 @@
     width: 100%;
     position: relative;
     opacity: 0.6;
-}
-
-.hero-section h1 {
-    position: relative;
-    color: black;
-    line-height: 2;
-    text-align: center;
-    top: 50px;
-  }
-
-  .hero-section h2 {
-    position: relative;
-    color: black;
-    line-height: 1.4;
-    text-align: center;
-    top: 50px;
-  }
-
-button {
-    position: relative;
-    top: 50px;
-    margin: 20px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    margin: 20px;
-    font-size: 25px;
-    position: relative;
-} */
+} 

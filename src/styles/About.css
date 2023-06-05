@@ -13,6 +13,11 @@
     max-width: 100%;
     height: auto;
     border-radius: 10%;
+    opacity: 0.8 ;
+}
+
+.about-me img:hover {
+    opacity: 0.9 ;
 }
 
 .about-me p {
