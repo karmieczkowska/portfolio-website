@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import "../styles/ContactForm.css";
 
 import React from 'react'
@@ -13,8 +12,8 @@ function ContactForm() {
         {/* Disable Captcha */}
         <input type="hidden" name="_captcha" value={false} />
 
-        <input type="hidden" name="_next" value={"https://karmieczkowska.github.io/success"} />
-
+        {/* <input type="hidden" name="_next" value={"https://karmieczkowska.github.io/success"} />
+ */}
 
         <label htmlFor="firstName">Your Name</label>
         <input type="text" name="name" id="firstName" required></input>
@@ -24,10 +23,8 @@ function ContactForm() {
         <input type="text" name="subject" id="subject" required></input>
         <label htmlFor="message">Message</label>
         <textarea rows="6" name="message" id="message" placeholder="Type your message here" required/>
-        <button type="submit" className="btn" >
-          {/* <Link to="/success"> */}
-          Submit
-          {/* </Link> */}
+          <button type="submit" className="btn" >
+            Submit
           </button>
       </form>
     </div>
