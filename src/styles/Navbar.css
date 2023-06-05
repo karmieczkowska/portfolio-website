@@ -29,7 +29,7 @@ header {
 	transition: 0.5s;
 }
 
-header h3 a {
+header h1 a {
   font-weight: 700;
   font-size: 25px;
   text-decoration: none;

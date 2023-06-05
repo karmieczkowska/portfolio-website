@@ -32,12 +32,14 @@ function Navbar() {
 
 	return (
 		<header className={color ? "header-bg" : "header"}>
-			<h3 className="logo"> <Link to="/portfolio-website"> Portfolio. </Link></h3>
+			<h1 className="logo">
+			<Link to="/portfolio-website"> Portfolio. </Link>
+			</h1>
 			<nav ref={navRef} className="links">
-        <Link to="/portfolio-website"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/contact"> Contact </Link>
+				<Link to="/portfolio-website"> Home </Link>
+				<Link to="/about"> About </Link>
+				<Link to="/projects"> Projects </Link>
+				<Link to="/contact"> Contact </Link>
         <button
           className="nav-btn nav-close-btn"
           onClick={showNavbar}
