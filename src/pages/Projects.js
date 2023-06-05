@@ -6,11 +6,12 @@ import HeroSection2 from "../components/HeroSection2";
 
 function Projects () {
   return (
-    <div className="projects">
+    <>
       <HeroSection2
         heading="PROJECTS"
         text="Some of my most recent works"
       />
+      <div className="projects">
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
@@ -19,6 +20,7 @@ function Projects () {
         })}
       </div>
     </div>
+    </>
   );
 };
 

@@ -13,6 +13,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    position: relative;
+    top: -130px;
   }
 
   /* MENU ITEM STYLING */

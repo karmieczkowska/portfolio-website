@@ -6,16 +6,13 @@ import MyPhoto from "../assets/mojeImg.jpg"
 
 const About = () => {
   return (
-    <div>
+    <>
       <HeroSection2
         heading="About me"
         text="React Front-End developer with passion for learning and ceating"
       />
-      <div className="circle"><p>.</p></div>
       <div className="about-me">
-
         <div><img src={MyPhoto} alt="me" /></div>
-
         <div>
           <p>
           Organized, communicative and quick-to-learn adept at front end programming
@@ -25,7 +22,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

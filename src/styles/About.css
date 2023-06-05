@@ -5,8 +5,9 @@
     column-gap: 40px;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 50px;
     align-items: center;
+    position: relative;
+    top: -100px;
 }
 
 .about-me img {
