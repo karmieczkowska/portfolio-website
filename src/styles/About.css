@@ -25,6 +25,7 @@
     font-size: 1.2rem;
     text-align: justify;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 740px) {

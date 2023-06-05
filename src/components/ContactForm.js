@@ -12,9 +12,6 @@ function ContactForm() {
         {/* Disable Captcha */}
         <input type="hidden" name="_captcha" value={false} />
 
-        {/* <input type="hidden" name="_next" value={"https://karmieczkowska.github.io/success"} />
- */}
-
         <label htmlFor="firstName">Your Name</label>
         <input type="text" name="name" id="firstName" required></input>
         <label htmlFor="email">Email</label>
