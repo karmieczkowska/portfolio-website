@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/ContactForm.css";
 
 import React from 'react'
@@ -25,9 +25,9 @@ function ContactForm() {
         <label htmlFor="message">Message</label>
         <textarea rows="6" name="message" id="message" placeholder="Type your message here" required/>
         <button type="submit" className="btn" >
-          <Link to="/success">
+          {/* <Link to="/success"> */}
           Submit
-          </Link>
+          {/* </Link> */}
           </button>
       </form>
     </div>
