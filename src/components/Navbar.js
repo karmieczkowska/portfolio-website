@@ -32,9 +32,9 @@ function Navbar() {
 
 	return (
 		<header className={color ? "header-bg" : "header"}>
-			<h3 className="logo"> <Link to="/portfolio"> Portfolio. </Link></h3>
+			<h3 className="logo"> <Link to="/portfolio-website"> Portfolio. </Link></h3>
 			<nav ref={navRef} className="links">
-        <Link to="/portfolio"> Home </Link>
+        <Link to="/portfolio-website"> Home </Link>
         <Link to="/about"> About </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/contact"> Contact </Link>
