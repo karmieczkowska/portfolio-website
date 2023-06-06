@@ -21,7 +21,7 @@ const About = () => {
           an opportunity to apply my passion for coding to a talented engineering team to
           develop quality solutions. Team player with an eye for detail.
           </p>
-          <NavLink to={"https://drive.google.com/file/d/1SIUUzMmrzvLAW4-JwFbKX0pLlR5IEdWF/view?usp=drive_link"} style={{color: "white"}}> My CV</NavLink>
+          <NavLink to={"https://drive.google.com/file/d/15FTG-INNPVThhXVPimJlYdbOc4fIo1HT/view?usp=drive_link"} style={{color: "white"}}> My CV</NavLink>
         </div>
       </div>
     </>
