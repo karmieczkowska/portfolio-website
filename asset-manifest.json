@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.edff407d.css",
-    "main.js": "/portfolio-website/static/js/main.2775946f.js",
+    "main.js": "/portfolio-website/static/js/main.9aad75d1.js",
     "static/media/todo-list-video.mp4": "/portfolio-website/static/media/todo-list-video.06ac9a46b760a7367bf4.mp4",
     "static/media/lla-video.mp4": "/portfolio-website/static/media/lla-video.d349173ea65eaa46132f.mp4",
     "static/media/calculator-video.mp4": "/portfolio-website/static/media/calculator-video.5b9aa92c60e480d901c3.mp4",
@@ -11,15 +11,17 @@
     "static/media/memo-video.mp4": "/portfolio-website/static/media/memo-video.7e879b35a2ebee433235.mp4",
     "static/media/mojeImg.jpg": "/portfolio-website/static/media/mojeImg.851597980e38be1a5a21.jpg",
     "static/media/clock-img.png": "/portfolio-website/static/media/clock-img.8eb18a900425e4a5b2ba.png",
+    "static/media/balance-video.mp4": "/portfolio-website/static/media/balance-video.81176bbee2b86db2de2f.mp4",
     "static/media/memo-img.png": "/portfolio-website/static/media/memo-img.6669c3e6b617bc727bb8.png",
     "static/media/calc-img.png": "/portfolio-website/static/media/calc-img.715fa86a468feda2bd1e.png",
+    "static/media/balance-img.png": "/portfolio-website/static/media/balance-img.ad3f9878d9d6c18bab2f.png",
     "static/media/todo-list.png": "/portfolio-website/static/media/todo-list.2e51be0c3eb676234938.png",
     "index.html": "/portfolio-website/index.html",
     "main.edff407d.css.map": "/portfolio-website/static/css/main.edff407d.css.map",
-    "main.2775946f.js.map": "/portfolio-website/static/js/main.2775946f.js.map"
+    "main.9aad75d1.js.map": "/portfolio-website/static/js/main.9aad75d1.js.map"
   },
   "entrypoints": [
     "static/css/main.edff407d.css",
-    "static/js/main.2775946f.js"
+    "static/js/main.9aad75d1.js"
   ]
 }
