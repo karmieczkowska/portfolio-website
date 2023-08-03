@@ -11,6 +11,8 @@ import "./index.css"
 // import ProjectDisplay from './pages/ProjectDisplay';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
+import About from './components/about/About';
+import Skills from './components/skills/Skills';
 
 
 const App = () => {
@@ -37,6 +39,8 @@ const App = () => {
     <Header />
     <main className='main'>
       <Home />
+      <About />
+      <Skills />
     </main>
     </>
   );
