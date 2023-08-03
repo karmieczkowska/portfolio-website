@@ -7,10 +7,10 @@ import HeroSection2 from "../components/HeroSection2";
 function Projects () {
   return (
     <>
-      <HeroSection2
+      {/* <HeroSection2
         heading="PROJECTS"
         text="Some of my most recent works"
-      />
+      /> */}
       <div className="projects">
       <div className="projectList">
         {ProjectList.map((project, idx) => {

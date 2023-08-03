@@ -5,10 +5,10 @@ import ContactForm from '../components/ContactForm';
 const Contact = () => {
   return (
     <div>
-      <HeroSection2
+      {/* <HeroSection2
         heading="Contact"
         text="Let's have a chat"
-      />
+      /> */}
       <ContactForm />
     </div>
   );
