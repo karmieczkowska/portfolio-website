@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom';
 import HeroSection2 from '../components/HeroSection2';
 import "../styles/About.css"
 
-import MyPhoto from "../assets/mojeImg.jpg"
+import MyPhoto from "../assets/my-photo.jpg"
 
 const About = () => {
   return (
     <>
-      <HeroSection2
+      {/* <HeroSection2
         heading="About me"
         text="React Front-End developer with passion for learning and ceating"
-      />
+      /> */}
       <div className="about-me">
         <div><img src={MyPhoto} alt="me" /></div>
         <div>
