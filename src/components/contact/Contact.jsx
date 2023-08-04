@@ -25,7 +25,7 @@ const Contact = () => {
                         <i className="bx bx-mail-send contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">user@gmail.com</span>
+                        <span className="contact__card-data">karmieczkowska@gmail.com</span>
 
                         <a href="mailto:karmieczkowska@gmail.com" className="contact__button">
                             Write me{""}
@@ -38,7 +38,7 @@ const Contact = () => {
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">111-222-333</span>
+                        <span className="contact__card-data">513-394-506</span>
 
                         <a href="https://api.whatsapp.com/send?phone=513394506" className="contact__button">
                             Write me{""}
@@ -47,7 +47,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                    <div className="contact__card">
+                    {/* <div className="contact__card">
                         <i className="bx bxl-messenger contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Messenger</h3>
@@ -58,7 +58,7 @@ const Contact = () => {
                             <i className="bx bx-right-arrow-alt
                             contact__button-icon"></i>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
