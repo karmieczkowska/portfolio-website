@@ -1,27 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.edff407d.css",
-    "main.js": "/portfolio-website/static/js/main.9aad75d1.js",
+    "main.css": "/portfolio-website/static/css/main.56660580.css",
+    "main.js": "/portfolio-website/static/js/main.9db5984e.js",
     "static/media/todo-list-video.mp4": "/portfolio-website/static/media/todo-list-video.06ac9a46b760a7367bf4.mp4",
     "static/media/lla-video.mp4": "/portfolio-website/static/media/lla-video.d349173ea65eaa46132f.mp4",
     "static/media/calculator-video.mp4": "/portfolio-website/static/media/calculator-video.5b9aa92c60e480d901c3.mp4",
     "static/media/clock-video.mp4": "/portfolio-website/static/media/clock-video.38879f61e22c0c7b871f.mp4",
-    "static/media/backgroung-img.jpg": "/portfolio-website/static/media/backgroung-img.aa156d371686eac9b1fa.jpg",
     "static/media/lla-img.png": "/portfolio-website/static/media/lla-img.32540927a8e602314a88.png",
+    "static/media/my-photo.jpg": "/portfolio-website/static/media/my-photo.eb6bc2ede682cdc5fd61.jpg",
     "static/media/memo-video.mp4": "/portfolio-website/static/media/memo-video.7e879b35a2ebee433235.mp4",
-    "static/media/mojeImg.jpg": "/portfolio-website/static/media/mojeImg.851597980e38be1a5a21.jpg",
     "static/media/clock-img.png": "/portfolio-website/static/media/clock-img.8eb18a900425e4a5b2ba.png",
     "static/media/balance-video.mp4": "/portfolio-website/static/media/balance-video.81176bbee2b86db2de2f.mp4",
+    "static/media/CV_Karolina_Mieczkowska.pdf": "/portfolio-website/static/media/CV_Karolina_Mieczkowska.0c9b0f03f227e9f753c6.pdf",
     "static/media/memo-img.png": "/portfolio-website/static/media/memo-img.6669c3e6b617bc727bb8.png",
     "static/media/calc-img.png": "/portfolio-website/static/media/calc-img.715fa86a468feda2bd1e.png",
     "static/media/balance-img.png": "/portfolio-website/static/media/balance-img.ad3f9878d9d6c18bab2f.png",
     "static/media/todo-list.png": "/portfolio-website/static/media/todo-list.2e51be0c3eb676234938.png",
+    "static/media/sass.svg": "/portfolio-website/static/media/sass.30ae756ce5354ab94348c82a9f767528.svg",
+    "static/media/react.svg": "/portfolio-website/static/media/react.7c738c950f567912bdc20a7e1a0af183.svg",
+    "static/media/typescript.svg": "/portfolio-website/static/media/typescript.a74aaff39f18036cb9a5e7530113f753.svg",
+    "static/media/javascript.svg": "/portfolio-website/static/media/javascript.e7363ab96f901afdeb86963dd6a44ce2.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.edff407d.css.map": "/portfolio-website/static/css/main.edff407d.css.map",
-    "main.9aad75d1.js.map": "/portfolio-website/static/js/main.9aad75d1.js.map"
+    "static/media/css3.svg": "/portfolio-website/static/media/css3.3b09ac3fe497b5c8138d4e8101bc62ee.svg",
+    "static/media/git.svg": "/portfolio-website/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
+    "static/media/html5.svg": "/portfolio-website/static/media/html5.655fc5b2390f611ade1bcfe511a0f825.svg",
+    "main.56660580.css.map": "/portfolio-website/static/css/main.56660580.css.map",
+    "main.9db5984e.js.map": "/portfolio-website/static/js/main.9db5984e.js.map"
   },
   "entrypoints": [
-    "static/css/main.edff407d.css",
-    "static/js/main.9aad75d1.js"
+    "static/css/main.56660580.css",
+    "static/js/main.9db5984e.js"
   ]
 }
